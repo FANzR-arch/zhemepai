@@ -1,0 +1,18 @@
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+/dictionary/showcase/*
+  Cache-Control: public, max-age=86400
+/
+  Cache-Control: no-cache
+/dictionary/
+  Cache-Control: no-cache
+/*.html
+  Cache-Control: no-cache
+/dictionary/*.html
+  Cache-Control: no-cache
+/dictionary/showcase.js
+  Cache-Control: no-cache
+/dictionary/feelings.js
+  Cache-Control: no-cache
+/s/*
+  Cache-Control: no-cache
