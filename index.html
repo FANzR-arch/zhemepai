@@ -12,17 +12,18 @@
   <meta name="twitter:card" content="summary_large_image">
   <title>哲么拍 · AI 运镜词典 / Zhemepai · AI Camera Move Dictionary</title>
   <script>try{document.documentElement.dataset.theme=localStorage.getItem('camera-language-theme')==='light'?'light':'dark';document.documentElement.dataset.lang=localStorage.getItem('camera-language-lang')==='en'?'en':'zh';}catch(e){}</script>
+  <link rel="preload" href="./dictionary/fonts/camera-han-sans-ui.woff2" as="font" type="font/woff2" crossorigin>
   
   
   
   
-  <script>window.SITE_CONFIG = {"siteUrl":"https://zhemepai.pages.dev","follow":{"x":"https://x.com/Formulasearch","site":"https://rzcthink.top"}};</script>
+  <script>window.SITE_CONFIG = {"siteUrl":"https://zhemepai.pages.dev","follow":{"x":"https://x.com/Formulasearch","site":"https://rzcthink.top"},"feedback":"https://github.com/FANzR-arch/zhemepai/issues/new"};</script>
   
   
   
   
   
-<meta property="og:title" content="哲么拍 · AI 运镜词典 / Zhemepai · AI Camera Move Dictionary"><meta property="og:description" content="看到一个镜头，叫得出名字，让 AI 拍得出来。 / See it. Name it. Make AI shoot it."><meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image"><meta property="og:url" content="https://zhemepai.pages.dev/"><meta property="og:image" content="https://zhemepai.pages.dev/dictionary/showcase/057_v01_og.jpg"><meta name="twitter:image" content="https://zhemepai.pages.dev/dictionary/showcase/057_v01_og.jpg"><style id="entry-loading">body{visibility:hidden}</style></head>
+<meta property="og:title" content="哲么拍 · AI 运镜词典 / Zhemepai · AI Camera Move Dictionary"><meta property="og:description" content="看到一个镜头，叫得出名字，让 AI 拍得出来。 / See it. Name it. Make AI shoot it."><meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image"><meta property="og:url" content="https://zhemepai.pages.dev/"><meta property="og:image" content="https://zhemepai.pages.dev/dictionary/showcase/057_v01_og.jpg"><meta name="twitter:image" content="https://zhemepai.pages.dev/dictionary/showcase/057_v01_og.jpg"><style id="entry-loading">body>*{visibility:hidden}body{background:#0E0F11}html[data-theme=light] body{background:#F4F3F0}body::after{content:"哲么拍 · 加载中…";position:fixed;inset:0;display:grid;place-items:center;font:14px/1.5 system-ui,sans-serif;letter-spacing:.04em;color:#8A8F96;animation:entry-pulse 1.2s ease-in-out infinite alternate}html[data-lang=en] body::after{content:"Zhemepai · Loading…"}@keyframes entry-pulse{from{opacity:.35}to{opacity:1}}</style></head>
 <body data-mode="dictionary" data-page="home">
   <a class="skip-link" href="#reader">跳到阅读区</a>
   <header id="top" data-shell-placeholder="dictionary"></header>
@@ -45,6 +46,9 @@
 <script type="module">
 const p=new URLSearchParams(location.search),director=p.get('view')==='director'||p.get('embed')==='1'||location.hash.startsWith('#s=')||['size','angle','lens','movement','focus','composition'].some(k=>p.has(k));
 window.DICT_URL=new URL('./dictionary/index.html',location.href).href;window.WEB_ROOT=new URL('./dictionary/',location.href).href;window.PREVIZ_URL=new URL('?view=director',location.href).href;
-try{if(director){document.body.innerHTML='<div id="app"></div>';document.body.removeAttribute('data-mode');document.body.removeAttribute('data-page');await import("./assets/index-BiH3S3Sp.js");}else{window.HOME_ENTRY=true;for(const href of ["./dictionary/style.css","./dictionary/shell.css"])await new Promise((ok,no)=>{const e=document.createElement('link');e.rel='stylesheet';e.href=href;e.onload=ok;e.onerror=no;document.head.append(e);});for(const src of ["./dictionary/data.js","./dictionary/prompts-bilingual.js","./dictionary/showcase.js","./dictionary/feelings.js","./dictionary/shell.js","./dictionary/app.js"])await new Promise((ok,no)=>{const e=document.createElement('script');e.src=src;e.onload=ok;e.onerror=no;document.head.append(e);});}}finally{document.getElementById('entry-loading')?.remove();}
+try{if(director){document.body.innerHTML='<div id="app"></div>';document.body.removeAttribute('data-mode');document.body.removeAttribute('data-page');await import("./assets/index-Bv1bIJgj.js");}else{window.HOME_ENTRY=true;const styles=["./dictionary/style.css","./dictionary/shell.css"],scripts=["./dictionary/data.js","./dictionary/prompts-bilingual.js","./dictionary/showcase.js","./dictionary/feelings.js","./dictionary/shell.js","./dictionary/app.js"],add=(tag,props)=>new Promise((ok,no)=>{const e=Object.assign(document.createElement(tag),props);e.onload=ok;e.onerror=no;document.head.append(e);});
+// Fetch everything in parallel (each request used to wait for the previous one); scripts still run in order after the styles apply.
+for(const href of scripts)document.head.append(Object.assign(document.createElement('link'),{rel:'preload',as:'script',href}));
+await Promise.all(styles.map(href=>add('link',{rel:'stylesheet',href})));await Promise.all(scripts.map(src=>add('script',{src,async:false})));}}finally{document.getElementById('entry-loading')?.remove();}
 </script></body>
 </html>

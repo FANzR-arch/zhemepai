@@ -1,0 +1,542 @@
+[
+ {
+  "id": "man-a",
+  "group": "people",
+  "zh": "男子 A",
+  "en": "Man A",
+  "height": 1.75,
+  "bytes": 75412,
+  "source": "Kenney mini-characters / character-male-a.glb"
+ },
+ {
+  "id": "man-b",
+  "group": "people",
+  "zh": "男子 B",
+  "en": "Man B",
+  "height": 1.75,
+  "bytes": 75440,
+  "source": "Kenney mini-characters / character-male-b.glb"
+ },
+ {
+  "id": "man-c",
+  "group": "people",
+  "zh": "男子 C",
+  "en": "Man C",
+  "height": 1.75,
+  "bytes": 77152,
+  "source": "Kenney mini-characters / character-male-c.glb"
+ },
+ {
+  "id": "woman-a",
+  "group": "people",
+  "zh": "女子 A",
+  "en": "Woman A",
+  "height": 1.65,
+  "bytes": 78032,
+  "source": "Kenney mini-characters / character-female-a.glb"
+ },
+ {
+  "id": "woman-b",
+  "group": "people",
+  "zh": "女子 B",
+  "en": "Woman B",
+  "height": 1.65,
+  "bytes": 75676,
+  "source": "Kenney mini-characters / character-female-b.glb"
+ },
+ {
+  "id": "woman-c",
+  "group": "people",
+  "zh": "女子 C",
+  "en": "Woman C",
+  "height": 1.65,
+  "bytes": 75948,
+  "source": "Kenney mini-characters / character-female-c.glb"
+ },
+ {
+  "id": "wheelchair",
+  "group": "people",
+  "zh": "轮椅",
+  "en": "Wheelchair",
+  "height": 0.95,
+  "bytes": 18720,
+  "source": "Kenney mini-characters / wheelchair.glb"
+ },
+ {
+  "id": "chair",
+  "group": "furniture",
+  "zh": "木椅",
+  "en": "Chair",
+  "height": 0.9,
+  "bytes": 3712,
+  "source": "Kenney furniture-kit / chair.glb"
+ },
+ {
+  "id": "office-chair",
+  "group": "furniture",
+  "zh": "办公椅",
+  "en": "Office chair",
+  "height": 1,
+  "bytes": 9800,
+  "source": "Kenney furniture-kit / chairDesk.glb"
+ },
+ {
+  "id": "desk",
+  "group": "furniture",
+  "zh": "书桌",
+  "en": "Desk",
+  "height": 0.76,
+  "bytes": 6472,
+  "source": "Kenney furniture-kit / desk.glb"
+ },
+ {
+  "id": "round-table",
+  "group": "furniture",
+  "zh": "圆桌",
+  "en": "Round table",
+  "height": 0.76,
+  "bytes": 3008,
+  "source": "Kenney furniture-kit / tableRound.glb"
+ },
+ {
+  "id": "coffee-table",
+  "group": "furniture",
+  "zh": "茶几",
+  "en": "Coffee table",
+  "height": 0.45,
+  "bytes": 3184,
+  "source": "Kenney furniture-kit / tableCoffee.glb"
+ },
+ {
+  "id": "sofa",
+  "group": "furniture",
+  "zh": "沙发",
+  "en": "Sofa",
+  "height": 0.85,
+  "bytes": 4732,
+  "source": "Kenney furniture-kit / loungeSofa.glb"
+ },
+ {
+  "id": "armchair",
+  "group": "furniture",
+  "zh": "单人沙发",
+  "en": "Armchair",
+  "height": 0.85,
+  "bytes": 4732,
+  "source": "Kenney furniture-kit / loungeChair.glb"
+ },
+ {
+  "id": "double-bed",
+  "group": "furniture",
+  "zh": "双人床",
+  "en": "Double bed",
+  "height": 0.7,
+  "bytes": 10620,
+  "source": "Kenney furniture-kit / bedDouble.glb"
+ },
+ {
+  "id": "bookcase",
+  "group": "furniture",
+  "zh": "书架",
+  "en": "Bookcase",
+  "height": 1.9,
+  "bytes": 4632,
+  "source": "Kenney furniture-kit / bookcaseOpen.glb"
+ },
+ {
+  "id": "fridge",
+  "group": "furniture",
+  "zh": "冰箱",
+  "en": "Fridge",
+  "height": 1.85,
+  "bytes": 10116,
+  "source": "Kenney furniture-kit / kitchenFridgeLarge.glb"
+ },
+ {
+  "id": "kitchen-cabinet",
+  "group": "furniture",
+  "zh": "橱柜",
+  "en": "Kitchen cabinet",
+  "height": 0.9,
+  "bytes": 7660,
+  "source": "Kenney furniture-kit / kitchenCabinet.glb"
+ },
+ {
+  "id": "floor-lamp",
+  "group": "furniture",
+  "zh": "落地灯",
+  "en": "Floor lamp",
+  "height": 1.6,
+  "bytes": 4076,
+  "source": "Kenney furniture-kit / lampRoundFloor.glb"
+ },
+ {
+  "id": "potted-plant",
+  "group": "furniture",
+  "zh": "盆栽",
+  "en": "Potted plant",
+  "height": 1.1,
+  "bytes": 5520,
+  "source": "Kenney furniture-kit / pottedPlant.glb"
+ },
+ {
+  "id": "tv",
+  "group": "furniture",
+  "zh": "电视",
+  "en": "TV",
+  "height": 0.863,
+  "bytes": 3892,
+  "source": "Kenney furniture-kit / televisionModern.glb"
+ },
+ {
+  "id": "monitor",
+  "group": "furniture",
+  "zh": "显示器",
+  "en": "Monitor",
+  "height": 0.45,
+  "bytes": 4092,
+  "source": "Kenney furniture-kit / computerScreen.glb"
+ },
+ {
+  "id": "laptop",
+  "group": "furniture",
+  "zh": "笔记本电脑",
+  "en": "Laptop",
+  "height": 0.215,
+  "bytes": 4936,
+  "source": "Kenney furniture-kit / laptop.glb"
+ },
+ {
+  "id": "doorway",
+  "group": "furniture",
+  "zh": "门洞",
+  "en": "Doorway",
+  "height": 2.4,
+  "bytes": 2356,
+  "source": "Kenney furniture-kit / doorwayOpen.glb"
+ },
+ {
+  "id": "window-wall",
+  "group": "furniture",
+  "zh": "窗墙",
+  "en": "Window wall",
+  "height": 2.6,
+  "bytes": 7524,
+  "source": "Kenney furniture-kit / wallWindow.glb"
+ },
+ {
+  "id": "stairs",
+  "group": "furniture",
+  "zh": "楼梯",
+  "en": "Stairs",
+  "height": 2.6,
+  "bytes": 6376,
+  "source": "Kenney furniture-kit / stairs.glb"
+ },
+ {
+  "id": "box",
+  "group": "furniture",
+  "zh": "纸箱",
+  "en": "Cardboard box",
+  "height": 0.45,
+  "bytes": 3752,
+  "source": "Kenney furniture-kit / cardboardBoxClosed.glb"
+ },
+ {
+  "id": "rug",
+  "group": "furniture",
+  "zh": "地毯",
+  "en": "Rug",
+  "height": 0.015,
+  "bytes": 3372,
+  "source": "Kenney furniture-kit / rugRectangle.glb"
+ },
+ {
+  "id": "coat-rack",
+  "group": "furniture",
+  "zh": "衣帽架",
+  "en": "Coat rack",
+  "height": 1.75,
+  "bytes": 4332,
+  "source": "Kenney furniture-kit / coatRackStanding.glb"
+ },
+ {
+  "id": "trashcan",
+  "group": "furniture",
+  "zh": "垃圾桶",
+  "en": "Trash can",
+  "height": 0.7,
+  "bytes": 4268,
+  "source": "Kenney furniture-kit / trashcan.glb"
+ },
+ {
+  "id": "sedan",
+  "group": "cars",
+  "zh": "轿车",
+  "en": "Sedan",
+  "height": 1.5,
+  "bytes": 32168,
+  "source": "Kenney car-kit / sedan.glb"
+ },
+ {
+  "id": "taxi",
+  "group": "cars",
+  "zh": "出租车",
+  "en": "Taxi",
+  "height": 1.65,
+  "bytes": 31444,
+  "source": "Kenney car-kit / taxi.glb"
+ },
+ {
+  "id": "police",
+  "group": "cars",
+  "zh": "警车",
+  "en": "Police car",
+  "height": 1.7,
+  "bytes": 35932,
+  "source": "Kenney car-kit / police.glb"
+ },
+ {
+  "id": "suv",
+  "group": "cars",
+  "zh": "SUV",
+  "en": "SUV",
+  "height": 1.75,
+  "bytes": 36352,
+  "source": "Kenney car-kit / suv.glb"
+ },
+ {
+  "id": "van",
+  "group": "cars",
+  "zh": "面包车",
+  "en": "Van",
+  "height": 2.1,
+  "bytes": 32812,
+  "source": "Kenney car-kit / van.glb"
+ },
+ {
+  "id": "truck",
+  "group": "cars",
+  "zh": "卡车",
+  "en": "Truck",
+  "height": 3,
+  "bytes": 32824,
+  "source": "Kenney car-kit / truck.glb"
+ },
+ {
+  "id": "ambulance",
+  "group": "cars",
+  "zh": "救护车",
+  "en": "Ambulance",
+  "height": 2.7,
+  "bytes": 39464,
+  "source": "Kenney car-kit / ambulance.glb"
+ },
+ {
+  "id": "firetruck",
+  "group": "cars",
+  "zh": "消防车",
+  "en": "Fire truck",
+  "height": 3.2,
+  "bytes": 39916,
+  "source": "Kenney car-kit / firetruck.glb"
+ },
+ {
+  "id": "cone",
+  "group": "cars",
+  "zh": "路锥",
+  "en": "Traffic cone",
+  "height": 0.7,
+  "bytes": 16840,
+  "source": "Kenney car-kit / cone.glb"
+ },
+ {
+  "id": "building-a",
+  "group": "city",
+  "zh": "楼房 A",
+  "en": "Building A",
+  "height": 12,
+  "bytes": 28440,
+  "source": "Kenney city-kit-commercial_2.1 / building-a.glb"
+ },
+ {
+  "id": "building-c",
+  "group": "city",
+  "zh": "楼房 B",
+  "en": "Building B",
+  "height": 12,
+  "bytes": 27572,
+  "source": "Kenney city-kit-commercial_2.1 / building-c.glb"
+ },
+ {
+  "id": "building-f",
+  "group": "city",
+  "zh": "楼房 C",
+  "en": "Building C",
+  "height": 14,
+  "bytes": 34020,
+  "source": "Kenney city-kit-commercial_2.1 / building-f.glb"
+ },
+ {
+  "id": "tower",
+  "group": "city",
+  "zh": "高楼",
+  "en": "Tower",
+  "height": 28,
+  "bytes": 30408,
+  "source": "Kenney city-kit-commercial_2.1 / building-skyscraper-a.glb"
+ },
+ {
+  "id": "block",
+  "group": "city",
+  "zh": "街区楼块",
+  "en": "City block",
+  "height": 10,
+  "bytes": 15796,
+  "source": "Kenney city-kit-commercial_2.1 / low-detail-building-wide-a.glb"
+ },
+ {
+  "id": "parasol",
+  "group": "city",
+  "zh": "遮阳伞",
+  "en": "Parasol",
+  "height": 2.4,
+  "bytes": 14924,
+  "source": "Kenney city-kit-commercial_2.1 / detail-parasol-a.glb"
+ },
+ {
+  "id": "tree",
+  "group": "nature",
+  "zh": "树",
+  "en": "Tree",
+  "height": 5,
+  "bytes": 4852,
+  "source": "Kenney nature-kit / tree_default.glb"
+ },
+ {
+  "id": "oak",
+  "group": "nature",
+  "zh": "橡树",
+  "en": "Oak",
+  "height": 6,
+  "bytes": 5988,
+  "source": "Kenney nature-kit / tree_oak.glb"
+ },
+ {
+  "id": "pine",
+  "group": "nature",
+  "zh": "松树",
+  "en": "Pine",
+  "height": 8,
+  "bytes": 4376,
+  "source": "Kenney nature-kit / tree_pineTallA.glb"
+ },
+ {
+  "id": "palm",
+  "group": "nature",
+  "zh": "棕榈树",
+  "en": "Palm",
+  "height": 7,
+  "bytes": 6360,
+  "source": "Kenney nature-kit / tree_palmTall.glb"
+ },
+ {
+  "id": "bush",
+  "group": "nature",
+  "zh": "灌木",
+  "en": "Bush",
+  "height": 1.2,
+  "bytes": 3316,
+  "source": "Kenney nature-kit / plant_bushLarge.glb"
+ },
+ {
+  "id": "rock",
+  "group": "nature",
+  "zh": "岩石",
+  "en": "Rock",
+  "height": 1.4,
+  "bytes": 4432,
+  "source": "Kenney nature-kit / rock_largeA.glb"
+ },
+ {
+  "id": "tall-rock",
+  "group": "nature",
+  "zh": "高岩石",
+  "en": "Tall rock",
+  "height": 2.6,
+  "bytes": 6100,
+  "source": "Kenney nature-kit / rock_tallA.glb"
+ },
+ {
+  "id": "stump",
+  "group": "nature",
+  "zh": "树桩",
+  "en": "Stump",
+  "height": 0.5,
+  "bytes": 3932,
+  "source": "Kenney nature-kit / stump_round.glb"
+ },
+ {
+  "id": "log",
+  "group": "nature",
+  "zh": "原木",
+  "en": "Log",
+  "height": 0.488,
+  "bytes": 5832,
+  "source": "Kenney nature-kit / log.glb"
+ },
+ {
+  "id": "fence",
+  "group": "nature",
+  "zh": "栅栏",
+  "en": "Fence",
+  "height": 0.69,
+  "bytes": 3656,
+  "source": "Kenney nature-kit / fence_simple.glb"
+ },
+ {
+  "id": "tent",
+  "group": "nature",
+  "zh": "帐篷",
+  "en": "Tent",
+  "height": 2.2,
+  "bytes": 5676,
+  "source": "Kenney nature-kit / tent_detailedOpen.glb"
+ },
+ {
+  "id": "column",
+  "group": "nature",
+  "zh": "石柱",
+  "en": "Column",
+  "height": 3,
+  "bytes": 5676,
+  "source": "Kenney nature-kit / statue_column.glb"
+ },
+ {
+  "id": "sign",
+  "group": "nature",
+  "zh": "路牌",
+  "en": "Sign",
+  "height": 1.6,
+  "bytes": 4584,
+  "source": "Kenney nature-kit / sign.glb"
+ },
+ {
+  "id": "flowers",
+  "group": "nature",
+  "zh": "花丛",
+  "en": "Flowers",
+  "height": 0.35,
+  "bytes": 4276,
+  "source": "Kenney nature-kit / flower_redA.glb"
+ },
+ {
+  "id": "campfire",
+  "group": "nature",
+  "zh": "篝火",
+  "en": "Campfire",
+  "height": 0.5,
+  "bytes": 4588,
+  "source": "Kenney nature-kit / campfire_logs.glb"
+ }
+]

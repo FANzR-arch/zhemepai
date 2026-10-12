@@ -85,6 +85,7 @@ html[data-theme="light"] .seg .pill{background:var(--raised);box-shadow:inset 0 
 .shell-switch{grid-template-columns:repeat(3,auto);width:auto}.shell-switch>a,.shell-switch>button{padding:0 12px}
 .shell-switch[data-active="landing"]>[data-mode="landing"]{color:var(--accent-ink)}
 .shell-x{text-decoration:none;color:var(--weak);font-size:19px}.shell-x[hidden]{display:none}
+.shell-feedback{color:var(--weak)}.shell-feedback[hidden]{display:none}.shell-feedback svg{width:16px;height:16px}
 html[data-lang="en"] .shell-brand .words{white-space:normal}html[data-lang="en"] .shell-brand strong{font-size:15px}
 .shell-header[data-shell-page="landing"] .shell-center>*:not([data-director-control]),.shell-header[data-shell-page="landing"] .shell-actions{display:none}
 .topbar.shell-header{view-transition-name:shell-top;transition:box-shadow var(--t-slow) var(--ease)}.topbar.shell-header.scrolled{box-shadow:var(--shadow)}
@@ -112,3 +113,24 @@ html[data-theme="light"] .shell-switch{background:none}.shell-switch>a:hover{bac
 @media(max-width:899px){.topbar.shell-header{padding-inline:12px;gap:8px}.shell-brand{width:28px}.shell-global{padding:2px;gap:0;height:32px}.shell-global .shell-lang{padding-inline:6px}.shell-global .shell-x{margin-right:2px;padding-right:3px;width:26px}.shell-switch>a{padding-inline:8px}}
 @media(max-width:759px){.shell-switch>a{padding-inline:7px;font-size:12px}.shell-switch svg{display:none}}
 @media(max-width:359px){.topbar.shell-header{padding-inline:8px;gap:5px}.shell-switch>a{padding-inline:5px;font-size:11px}.shell-global .shell-lang{padding-inline:4px}.shell-global .shell-icon{width:25px}.shell-global .shell-x{width:23px}}
+
+/* T9 (2026-10-12): larger touch targets on touch screens; visuals stay compact. */
+@media(pointer:coarse){.shell-global .shell-icon,.shell-global .shell-lang{min-width:32px;height:32px}.shell-global{height:38px}.shell-switch>a{min-height:36px}#directory-search{min-height:36px}}
+
+/* T9b: feedback / follow carry visible words on wide screens so they read as actions, not decoration. */
+.shell-global .shell-feedback,.shell-global .shell-x{width:auto;gap:4px;padding:0 7px;display:inline-flex;align-items:center;text-decoration:none}
+.shell-global .shell-feedback{color:var(--accent-ink)}
+.shell-global .shell-feedback>span,.shell-global .shell-x>span[data-shell-zh]{font:600 12px/1 var(--font)}
+.shell-global .shell-x>span[data-shell-zh]{color:var(--text)}
+@media(max-width:1099px){.shell-global .shell-feedback>span,.shell-global .shell-x>span[data-shell-zh]{display:none}.shell-global .shell-feedback,.shell-global .shell-x{padding:0;width:28px;justify-content:center}}
+.community-card{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:28px}
+.community-card>section{border:1px solid var(--line-strong);border-radius:10px;background:var(--panel);padding:18px 20px;display:flex;flex-direction:column;gap:10px}
+.community-card h2{margin:0;font-size:15px;font-weight:600;color:var(--text)}
+.community-card p{margin:0;font-size:12.5px;line-height:1.6;color:var(--secondary)}
+.community-card .actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto}
+.community-card a.btn{display:inline-flex;align-items:center;gap:6px;text-decoration:none;height:32px;padding:0 12px;border-radius:7px;font-size:13px}
+.community-card a.btn.primary{background:var(--accent);color:var(--on-accent)}
+.community-card a.btn.ghost{border:1px solid var(--line-strong);color:var(--text)}
+.community-card svg{width:15px;height:15px}
+@media(max-width:759px){.community-card{grid-template-columns:1fr}}
+@media(max-width:479px){.shell-header:not([data-shell-page=director]) .shell-global .shell-x,.shell-header:not([data-shell-page=director]) .shell-global .shell-feedback{display:none}}
